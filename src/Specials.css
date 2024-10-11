@@ -1,7 +1,9 @@
 .specials {
+  display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 
 .specials-head {
@@ -41,21 +43,14 @@ h3 {
 
 @media (max-width: 800px) {
   h3 {
-    font-size: 60px;
+    font-size: 40px; /* Adjust font size for smaller screens */
     margin-top: 1em;
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-  margin-bottom: -0.2em;
-  box-shadow: 5px 10px 20px #ccc;
-  
-}
+
 
 .card {
   margin: 1em;
@@ -73,7 +68,15 @@ h3 {
   margin-top: 1em;
 }
 
-
+.card img {
+  width: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  margin-bottom: -0.2em;
+  box-shadow: 5px 10px 20px #ccc;
+  max-height: 35%;
+  max-width: 100%;
+}
 
 .card-body {
   font-family: "Karla", sans-serif;
@@ -114,4 +117,20 @@ h3 {
   height: auto;
   margin-top: 10.5em;
   margin-left: 15em;
+}
+
+@media (max-width: 900px) {
+  .card {
+    flex: 1 1 100%; 
+  }
+
+  .s-button {
+    width: 100%; 
+    margin: 1em 0; 
+  }
+
+  .title, .title-button {
+    width: 100%; 
+    margin: 0; 
+  }
 }

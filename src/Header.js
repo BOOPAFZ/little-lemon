@@ -1,13 +1,13 @@
-import React from "react";
-import logo from './assets/logo.png';
+import React from 'react';
 
-
+import './header.css';
 
 function Header() {
-    return <header>
-        <img src={logo} alt="Little Lemon Logo" />
-    </header>;
+  return (
+    <header className="header">
+      <img src="/assets/logo.png" alt="little lemon logo" />
+    </header>
+  );
 }
-
 
 export default Header;

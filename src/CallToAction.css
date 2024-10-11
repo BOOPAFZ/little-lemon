@@ -1,0 +1,120 @@
+.ce {
+  display: flex;
+  background-color: #063827b4;
+  width: 100%;
+  height: 420px;
+  margin-top: 2em;
+  margin-bottom: 300px;
+}
+
+@media (max-width: 800px) {
+  .ce {
+    justify-content: center;
+    height: auto;
+    text-align: center;
+  }
+}
+
+.call-to-action {
+  width: 40%;
+  margin-left: 7em;
+  margin-right: 5em;
+}
+
+@media (max-width: 800px) {
+  .call-to-action {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 2em;
+  }
+}
+
+.call-to-action p {
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  color: #fff;
+  width: 350px;
+}
+
+@media (max-width: 800px) {
+  .call-to-action p {
+    text-align: center;
+    width: 95%;
+  }
+}
+
+
+.logo-nav img {
+  height: 500px;
+  width: 60%;
+  position: relative;
+  margin-top: 2em;;
+  margin-left: 6em;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, .2);
+}
+
+
+
+
+@media (min-width: 700px) and (max-width: 1050) {
+  .logo-nav img {
+    margin-left: -2em;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-nav img {
+    display: none;
+  }
+}
+
+.logo-nav {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .logo-nav {
+    display: none;
+  }
+}
+
+
+h1 {
+  font-family: "Markazi Text", serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #035503;
+}
+
+h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 30px;
+  color: #fff;
+  margin-top: -1.5em;
+}
+
+
+#c-button {
+  background-color: #035503;
+  color: #000;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  width: 12em;
+  height: 3em;
+  margin: 1em;
+  border-radius: 2em;
+  border: none;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#c-button:hover {
+  cursor: pointer;
+  background-color: rgb(37, 68, 68);
+  color: #fff;
+}

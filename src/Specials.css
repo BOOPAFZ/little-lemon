@@ -1,0 +1,117 @@
+.specials {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.specials-head {
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  display: flex;
+}
+
+.s-button {
+  background-color: #035503;
+  color: #000;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  width: 12em;
+  height: 3em;
+  margin: 3em;
+  border-radius: 2em;
+  border: solid rgb(7, 5, 5) 1.5px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.s-button:hover {
+  cursor: pointer;
+  background-color: rgb(37, 68, 68);
+  color: #fff;
+}
+
+h3 {
+  font-family: "Markazi Text", serif;
+  font-size: 60px;
+  color: #000;
+  margin: 1em;
+  margin-right: 5em;
+}
+
+@media (max-width: 800px) {
+  h3 {
+    font-size: 60px;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  margin-bottom: -0.2em;
+  box-shadow: 5px 10px 20px #ccc;
+  
+}
+
+.card {
+  margin: 1em;
+  flex: 1 1 calc(33.333% - 2em);
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+
+
+.card-body {
+  font-family: "Karla", sans-serif;
+  background-color: #f2efef;
+  padding: 1em;
+  line-height: 1.8em;
+  box-shadow: 5px 10px 20px #ccc;
+  height: auto;
+}
+
+@media (min-width: 700px) {
+  .card-body {
+    height: 300px;
+  }
+}
+
+.card-title {
+  font-family: "Markazi Text", serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.btn.btn-primary {
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  border: none;
+}
+
+.title {
+  width: 30%;
+  height: auto;
+  margin-right: 8em;
+}
+
+.title-button {
+  width: 50%;
+  height: auto;
+  margin-top: 10.5em;
+  margin-left: 15em;
+}

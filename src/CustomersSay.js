@@ -3,19 +3,30 @@ import './CustomersSay.css';
 
 function CustomersSay() {
   return (
-    <section className="customers-say">
-      <h2>What Our Customers Say</h2>
-      <div className="testimonial">
-        <p>"This product changed my life! Highly recommend to everyone."</p>
-        <p>- Happy Customer</p>
-      </div>
-      <div className="testimonial">
-        <p>"Excellent service and fantastic quality. Will buy again."</p>
-        <p>- Satisfied Client</p>
+    <section className="testimonials">
+      <h2 className="testimonial-header">What Our Customers Say</h2>
+      <div className="review-container">
+        <div className="review">
+          <img src='/assets/ahmed.jpg' alt="Customer Ahmed" id="profile" />
+          <h2>Ahmed Bakhsouss</h2>
+          <div id="rating">★★★★★</div>
+          <p>"You have to try the tajine."</p>
+        </div>
+        <div className="review">
+          <img src='/assets/ahmed.jpg' alt="Customer Ahmed" id="profile" />
+          <h2>Ahmed Bakhsouss</h2>
+          <div id="rating">★★★★★</div>
+          <p>"You have to try the tajine."</p>
+        </div>
+        <div className="review">
+          <img src='/assets/ahmed.jpg' alt="Customer Ahmed" id="profile" />
+          <h2>Ahmed Bakhsouss</h2>
+          <div id="rating">★★★★★</div>
+          <p>"You have to try the tajine."</p>
+        </div>
       </div>
     </section>
   );
 }
 
 export default CustomersSay;
-

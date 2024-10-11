@@ -1,22 +1,70 @@
-.customers-say {
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-}
-
-.customers-say h2 {
+.testimonials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  background-color: #495e57;
   text-align: center;
-  color: #333;
+  padding-top: 1em;
 }
 
-.testimonial {
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #fff;
+.testimonial-header {
+  padding-top: 80px;
+  font-family: "Markazi Text", serif;
+  font-size: 60px;
+  font-weight: 700;
+  width: 100%;
+  color: #bebebe;
 }
 
-.testimonial p {
-  margin: 5px 0;
+.review-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.review {
+  width: 250px;
+  height: auto;
+  background-color: #1f2e2263;
+  margin: 2em;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.review p {
+  font-family: "Karla", sans-serif;
+  color: aliceblue;
+}
+
+@media (max-width: 1050px) {
+  .review p {
+    margin: 1em;
+  }
+}
+
+#profile {
+  width: 30%;
+  border-radius: 50%;
+  margin: 1em;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#rating {
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+  color: yellow;
+}
+
+.review h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 25px;
+  color: #fff9f9;
+  text-align: center;
+  margin: 0.1em;
 }

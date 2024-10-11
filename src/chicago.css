@@ -1,4 +1,77 @@
-.chicago {
-    padding: 20px;
-    background-color: #fff;
+.about {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 3em 0;
+  margin-top: 60px;
+}
+
+@media (max-width: 800px) {
+  .about {
+    flex-wrap: wrap;
   }
+}
+
+.about-content {
+  width: 40%;
+  margin-left: 7em;
+  margin-right: 5em;
+}
+
+.about-content h2{
+  color: #000;
+  font-size: 60px;
+  padding-bottom: 0;
+}
+
+.about-content h3{
+  font-size: 45px;
+  padding: 0;
+}
+
+@media (max-width: 800px) {
+  .about-content {
+    width: 100%;
+  }
+}
+
+.about-content p {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  line-height: 1.7em;
+  color: #000;
+  margin-top: -1em;
+}
+
+@media (max-width: 1050px) {
+  .about-content p {
+    font-size: 16px;
+  }
+}
+
+.owners {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .owners {
+    width: 100%;
+    margin: 3em;
+  }
+}
+
+#chefs {
+  width: 50%;
+  height: 60%;
+  margin-top: 1em;
+  margin-left: 10em;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#restaurant {
+  width: 40%;
+  height: 60%;
+  margin-top: -10em;
+  margin-left: 2em;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}

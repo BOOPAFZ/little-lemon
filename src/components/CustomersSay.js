@@ -1,5 +1,5 @@
 import React from 'react';
-import './CustomersSay.css';
+import './styles/CustomersSay.css';
 
 function CustomersSay() {
   return (

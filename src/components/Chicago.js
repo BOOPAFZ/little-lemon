@@ -1,5 +1,5 @@
 import React from 'react';
-import './chicago.css';
+import './styles/chicago.css';
 
 
 function Chicago() {

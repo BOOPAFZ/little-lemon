@@ -1,4 +1,50 @@
 .booking-page {
-    padding: 20px;
-    background-color: #f8f8f8;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 20px;
+  background-color: #f8f8f8;
+  padding-left: 30% ;
+  padding-right: 30% ;
+
+}
+
+.booking-page h1{
+  margin-left: 23%;
+}
+
+.booking-page img {
+  all: revert;
+  max-width: 100%;
+  border-radius: 180px ;
+  margin-bottom: 20px;
+
+}
+
+@media (max-width: 850px) {
+  .booking-page {
+    padding: 18%;
   }
+}
+
+.booking-page form {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #13421f;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 3px 3px 15px rgba(136, 71, 71, 0.2);
+}
+
+.booking-page label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.booking-page input, .booking-page select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}

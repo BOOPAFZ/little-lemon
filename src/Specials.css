@@ -3,7 +3,7 @@
   justify-content: center;
   width: 100%;
   height: auto;
-  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  flex-wrap: wrap; 
 }
 
 .specials-head {
@@ -23,8 +23,8 @@
   height: 3em;
   margin: 3em;
   border-radius: 2em;
-  border: solid rgb(7, 5, 5) 1.5px;
-  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  border: solid rgb(99, 65, 65) 1.5px;
+  box-shadow: 3px 3px 15px rgba(136, 71, 71, 0.2);
 }
 
 .s-button:hover {

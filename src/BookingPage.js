@@ -1,13 +1,15 @@
 import React from 'react';
+import BookingForm from './BookingForm';
 import './BookingPage.css';
 
-function BookingPage() {
+const BookingPage = () => {
   return (
-    <div className="booking-page">
-      <h1>Reserve a Table</h1>
-      {/* Add your booking form here */}
+    <div className='booking-page'>
+      <img src='assets/booking.jpeg'></img>
+      <h1>Book a Table</h1>
+      <BookingForm />
     </div>
   );
-}
+};
 
 export default BookingPage;
